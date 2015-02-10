@@ -15,5 +15,13 @@
     },
     "replace": {
         "connect20/madia_adyen": "1.*"
-    }
+    },
+  "extra":{
+    "map":[
+      ["app/etc/modules/Aoe_TemplateHints.xml", "app/etc/modules/Aoe_TemplateHints.xml"],
+      ["app/code/local/Aoe/TemplateHints/", "app/code/local/Aoe/TemplateHints/"],
+      ["skin/frontend/base/default/aoe_templatehints", "skin/frontend/base/default/aoe_templatehints"]
+    ]
+  }
+
 }
